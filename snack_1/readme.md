@@ -2,17 +2,17 @@ L’utente inserisce due parole in successione, con due prompt. Il software stam
 
 -bonus: decidere quante parole inserire
 
+
+# creo la lista contenente le parole da stampare
 # cerco le parole con lunghezza in ordine crescente
--creo una variabile max 
--assegno la lunghezza del zeresimo elemento della lista, max
--assegno il contatore a 0
+-dichiaro min
+-assegno la lunghezza del 0-esimo elemento della lista a min
 -creo la variabile temporanea
 
--se max < lunghezza della stringa in j-esima posizione
-allora assegna a 
--temp il valore della stringa in 0-esima posizione
--alla stringa in 0-esima posizione, la stringa in j-esima posizione
--max, la lunghezza della stringa in j-esima posizione
--la stringa in j-esima posizone, temp
+-entro in un ciclo che continua per lo stesso numero volte del numero delle parole che voglio inserire
+-entro in un'altro ciclo che continua finché non ha controllato tutti gli elementi della lista
+-cerco la stringa più corta contenuta nella lista e la scambio di posizione con la 0-esima
+-trovato la stringa più corta, la stampo e la cancello dalla lista
+-risetto il valore di min alla lunghezza del 0-esimo elemento della lista
 
 
